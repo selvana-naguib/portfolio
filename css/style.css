@@ -1,4 +1,4 @@
-/* ---------------------- 
+﻿/* ---------------------- 
 Stylesheet Guide
 -------------------------
 
@@ -1166,7 +1166,7 @@ form .cv-button {
     float: left;
     cursor: pointer;
     margin: 0px 1px 1px 0px;
-    padding: 15px 20px;
+    padding: 15px 14px;
     line-height: 1;
     width: auto;
     -webkit-transition: all 0.2s ease-in-out;
