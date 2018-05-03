@@ -1213,24 +1213,24 @@ jQuery('#gallery8').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/etender/home.png',
-            'thumb': 'images/etender/home.png',
+            'src': 'images/ETender/home.png',
+            'thumb': 'images/ETender/home.png',
             'subHtml': 'Home'
         }, {
-            'src': 'images/etender/tender.png',
-            'thumb': 'images/etender/tender.png',
+            'src': 'images/ETender/tender.png',
+            'thumb': 'images/ETender/tender.png',
             'subHtml': "Tender"
         }, {
-            'src': 'images/etender/tenders.png',
-            'thumb': 'images/etender/tenders.png',
+            'src': 'images/ETender/tenders.png',
+            'thumb': 'images/ETender/tenders.png',
             'subHtml': "Tenders"
 	    }, {
-            'src': 'images/etender/search.png',
-            'thumb': 'images/etender/search.png',
+            'src': 'images/ETender/search.png',
+            'thumb': 'images/ETender/search.png',
             'subHtml': "Search"
 		}, {
-            'src': 'images/etender/contact.png',
-            'thumb': 'images/etender/contact.png',
+            'src': 'images/ETender/contact.png',
+            'thumb': 'images/ETender/contact.png',
             'subHtml': "Contact"
         }]
     })
@@ -1251,12 +1251,12 @@ jQuery('#gallery9').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/youth/home.png',
-            'thumb': 'images/youth/home.png',
+            'src': 'images/Youth/home.png',
+            'thumb': 'images/Youth/home.png',
             'subHtml': 'Home'
         }, {
-            'src': 'images/youth/event-details.png',
-            'thumb': 'images/youth/event-details.png',
+            'src': 'images/Youth/event-details.png',
+            'thumb': 'images/Youth/event-details.png',
             'subHtml': "Event Details"
         }]
     })
