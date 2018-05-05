@@ -804,41 +804,41 @@ jQuery('#gallery12').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/images/BookletCover.jpg',
-            'thumb': 'images/images/BookletCover.jpg',
+            'src': 'images/Images/BookletCover.jpg',
+            'thumb': 'images/Images/BookletCover.jpg',
             'subHtml': 'BookletCover'
         }, {
-            'src': 'images/images/HomeApplication.png',
-            'thumb': 'images/images/HomeApplication.png',
+            'src': 'images/Images/HomeApplication.png',
+            'thumb': 'images/Images/HomeApplication.png',
             'subHtml': 'HomeApplication'
         }, {
-           'src': 'images/images/JopPost.jpg',
-            'thumb': 'images/images/JopPost.jpg',
+           'src': 'images/Images/JopPost.jpg',
+            'thumb': 'images/Images/JopPost.jpg',
             'subHtml': 'JopPost'
         }, {
-            'src': 'images/images/JopPost2.png',
-            'thumb': 'images/images/JopPost2.png',
+            'src': 'images/Images/JopPost2.png',
+            'thumb': 'images/Images/JopPost2.png',
             'subHtml': 'JopPost2'
         }, {
-           'src': 'images/images/LogoEcommerce.png',
-            'thumb': 'images/images/LogoEcommerce.png',
+           'src': 'images/Images/LogoEcommerce.png',
+            'thumb': 'images/Images/LogoEcommerce.png',
             'subHtml': 'LogoEcommerce'
          }, {
-           'src': 'images/images/LogoProgrammingCompany.png',
-            'thumb': 'images/images/LogoProgrammingCompany.png',
+           'src': 'images/Images/LogoProgrammingCompany.png',
+            'thumb': 'images/Images/LogoProgrammingCompany.png',
             'subHtml': 'LogoProgrammingCompany'
          }, {
-           'src': 'images/images/SocialMedia.jpg',
-            'thumb': 'images/images/SocialMedia.jpg',
+           'src': 'images/Images/SocialMedia.jpg',
+            'thumb': 'images/Images/SocialMedia.jpg',
             'subHtml': 'SocialMedia.jpg'
          }, {
-           'src': 'images/images/SocialMedia2.jpg',
-            'thumb': 'images/images/SocialMedia2.jpg',
+           'src': 'images/Images/SocialMedia2.jpg',
+            'thumb': 'images/Images/SocialMedia2.jpg',
             'subHtml': 'SocialMedia2.jpg' 
 
         },{
-           'src': 'images/images/CheckMyRyde-Logo.png',
-            'thumb': 'images/images/CheckMyRyde-Logo.png',
+           'src': 'images/Images/CheckMyRyde-Logo.png',
+            'thumb': 'images/Images/CheckMyRyde-Logo.png',
             'subHtml': 'CheckMyRyde-Logo'
          }]
     })
@@ -1251,12 +1251,12 @@ jQuery('#gallery9').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/Youth/home.png',
-            'thumb': 'images/Youth/home.png',
+            'src': 'images/Youth/Home.png',
+            'thumb': 'images/Youth/Home.png',
             'subHtml': 'Home'
         }, {
-            'src': 'images/Youth/event-details.png',
-            'thumb': 'images/Youth/event-details.png',
+            'src': 'images/Youth/Event-Details.png',
+            'thumb': 'images/Youth/Event-Details.png',
             'subHtml': "Event Details"
         }]
     })
