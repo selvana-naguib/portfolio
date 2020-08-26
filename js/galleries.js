@@ -1379,6 +1379,27 @@ jQuery('#gallery102').on('click', function (e) {
         }]
     })
 });
+jQuery('#gallery200').on('click', function (e) {
+    "use strict";
+    e.preventDefault();
+    jQuery(this).lightGallery({
+        // Settings
+        dynamic: true,
+        mode: 'lg-slide-vertical',
+        zoom: true,
+        fullScreen: true,
+        autoplay: false,
+        thumbnail: false,
+        download: true,
+        counter: true,
+        // Images
+        dynamicEl: [{
+            'src': 'images/Images/PaySky.png',
+            'thumb': 'images/Images/PaySky.png',
+            'subHtml': "01"
+        }]
+    })
+});
 jQuery('#gallery103').on('click', function (e) {
     "use strict";
     e.preventDefault();
