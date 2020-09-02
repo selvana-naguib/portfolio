@@ -1005,7 +1005,46 @@ jQuery('#gallery11').on('click', function (e) {
         }]
     })
 });
-
+jQuery('#gallery300').on('click', function (e) {
+    "use strict";
+    e.preventDefault();
+    jQuery(this).lightGallery({
+       dynamic: true,
+        mode: 'lg-slide-vertical',
+        zoom: true,
+        fullScreen: true,
+        autoplay: false,
+        thumbnail: false,
+        download: true,
+        counter: true,
+        // Images
+        dynamicEl: [{
+            'src': 'images/MasterLinux/1.png',
+            'thumb': 'images/MasterLinux/1.png',
+            'subHtml': '1'
+        }, {
+            'src': 'images/MasterLinux/2.png',
+            'thumb': 'images/MasterLinux/2.png',
+            'subHtml': '2'
+        }, {
+           'src': 'images/MasterLinux/3.png',
+            'thumb': 'images/MasterLinux/3.png',
+            'subHtml': '3'
+        }, {
+            'src': 'images/MasterLinux/4.png',
+            'thumb': 'images/MasterLinux/4.png',
+            'subHtml': '4'
+        }, {
+           'src': 'images/MasterLinux/5.png',
+            'thumb': 'images/MasterLinux/5.png',
+            'subHtml': '5'
+         }, {
+           'src': 'images/MasterLinux/6.png',
+            'thumb': 'images/MasterLinux/6.png',
+            'subHtml': '6'
+         }]
+    })
+});
 
 jQuery('#gallery10').on('click', function (e) {
     "use strict";
