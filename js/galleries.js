@@ -147,7 +147,7 @@ interval = setInterval(() => {
                             window.location.href = project.images[0].replace('link$', 'http://');
                         } else {
                             var galleryimages = [];
-                            for (image of project.images) {
+                            for (let image of project.images) {
                                 galleryimages.push({
                                     'src': `${project.folder}${image}`,
                                     'thumb': `${project.folder}${image}`,
