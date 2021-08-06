@@ -2,6 +2,14 @@ projects = [];
 pendingFolderCount = 0;
 notProjects = [".DS_Store", ""];
 i = -1;
+const express = require('express');
+const app = express();
+const path = require('path');
+
+// Allow assets directory listings
+const serveIndex = require('serve-index'); 
+app.use('/images', serveIndex(path.join(__dirname, '/images')));
+
 function loadProjects(foldername, category) {
     incrementPendingFolderCount();
     $.ajax({
