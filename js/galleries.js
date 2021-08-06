@@ -2,13 +2,7 @@ projects = [];
 pendingFolderCount = 0;
 notProjects = [".DS_Store", ""];
 i = -1;
-const express = require('express');
-const app = express();
-const path = require('path');
 
-// Allow assets directory listings
-const serveIndex = require('serve-index'); 
-app.use('/images', serveIndex(path.join(__dirname, '/images')));
 
 function loadProjects(foldername, category) {
     incrementPendingFolderCount();
@@ -97,17 +91,26 @@ function deccrementPendingFolderCount() {
     console.log('dec');
 }
 
+function loadProjectsfromFile() {
+    incrementPendingFolderCount();
+    $.getJSON('projects.json', function(data) {         
+        projects = data;
+        deccrementPendingFolderCount();
+    });
+}
 
-loadProjects('images/', 'all');
-loadProjects('projects/wireframes/', 'cat1');
-loadProjects('projects/websites/', 'cat2');
-loadProjects('projects/mobileApplications/', 'cat3');
-loadProjects('projects/designs/', 'cat4');
+//loadProjects('images/', 'all');
+// loadProjects('projects/wireframes/', 'cat1');
+// loadProjects('projects/websites/', 'cat2');
+// loadProjects('projects/mobileApplications/', 'cat3');
+// loadProjects('projects/designs/', 'cat4');
+loadProjectsfromFile();
 interval = setInterval(() => {
         console.log(pendingFolderCount);
         jQuery("body").find('#site-loading').fadeIn(500);
         if (pendingFolderCount === 0) {
            console.log('count is zero');
+           console.log(JSON.stringify(projects));   
            clearInterval(interval);
            console.log('continue');
             jQuery("body").find('#site-loading').fadeOut(500);
@@ -168,4 +171,4 @@ interval = setInterval(() => {
                 }
             }
     }
-}, 100);
+}, 10);
