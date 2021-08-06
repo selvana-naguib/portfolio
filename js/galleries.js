@@ -31,13 +31,15 @@ function loadProjects(foldername, category) {
                                 }
                             }
                             deccrementPendingFolderCount();
-                        }
+                        },
+                        error: function(XMLHttpRequest, textStatus, errorThrown) {deccrementPendingFolderCount();}
                     });
                 }
             }
             deccrementPendingFolderCount();
             // console.log(projects);
-        }
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {deccrementPendingFolderCount();}
     });
 }
 
@@ -88,7 +90,7 @@ function deccrementPendingFolderCount() {
 }
 
 
-//loadProjects('images/', 'all');
+loadProjects('images/', 'all');
 loadProjects('projects/wireframes/', 'cat1');
 loadProjects('projects/websites/', 'cat2');
 loadProjects('projects/mobileApplications/', 'cat3');
@@ -158,4 +160,4 @@ interval = setInterval(() => {
                 }
             }
     }
-}, 0);
+}, 100);
