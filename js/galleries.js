@@ -95,8 +95,7 @@ function loadProjectsfromFile() {
     incrementPendingFolderCount();
     $.getJSON('projects.json', function(data) {         
         projects = data;
-        deccrementPendingFolderCount();
-    });
+    }).always(function() { deccrementPendingFolderCount(); });;
 }
 
 //loadProjects('images/', 'all');
