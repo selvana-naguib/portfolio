@@ -170,4 +170,4 @@ interval = setInterval(() => {
                 }
             }
     }
-}, 10);
+}, 1000);
