@@ -1,6 +1,6 @@
 projects = [];
 pendingFolderCount = 0;
-notProjects = [".DS_Store", ""];
+notProjects = [".DS_Store", "", "JPEG"];
 i = -1;
 
 
@@ -19,7 +19,7 @@ function loadProjects(foldername, category) {
                     projects[i].name = folder[1];
                     projects[i].images = [];
                     projects[i].category = category;
-                    projects[i].folder = foldername + projects[i].name + '/'
+                    projects[i].folder = foldername + projects[i].name + '/JPEG/'
                     incrementPendingFolderCount();
                     $.ajax({
                         url: projects[i].folder,
