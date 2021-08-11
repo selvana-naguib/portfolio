@@ -97,6 +97,7 @@ function loadProjectsfromFile() {
         projects = data;
     }).always(function() { deccrementPendingFolderCount(); });;
 }
+loadScript('js/wookmark.js');
 
 //loadProjects('images/', 'all');
 // loadProjects('projects/wireframes/', 'cat1');
@@ -131,8 +132,6 @@ interval = setInterval(() => {
             `);
                 }
             }
-            loadScript('js/wookmark.js');
-            setTimeout(() => {
                 loadAllScripts();
 
                 for (project of projects) {
@@ -170,7 +169,6 @@ interval = setInterval(() => {
                         });
                     }
                 }
-            }, 10);
 
     }
 }, 1000);
