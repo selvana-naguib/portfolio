@@ -53,7 +53,7 @@ function loadScript(scriptName) {
 
 function loadAllScripts() {
     //    loadScript('js/nerveslider.min.js');
-    loadScript('js/wookmark.js');
+    // loadScript('js/wookmark.js');
     loadScript('js/portfolio-trigger.js');
     //   loadScript('js/jquery.tooltipster.min.js');
     //   loadScript('js/quovolver.js');
@@ -131,6 +131,7 @@ interval = setInterval(() => {
             `);
                 }
             }
+            loadScript('js/wookmark.js');
             setTimeout(() => {
                 loadAllScripts();
 
