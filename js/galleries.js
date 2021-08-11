@@ -1,6 +1,6 @@
 projects = [];
 pendingFolderCount = 0;
-notProjects = [".DS_Store", "", "JPEG"];
+notProjects = [".DS_Store", ""];
 i = -1;
 
 
@@ -19,7 +19,7 @@ function loadProjects(foldername, category) {
                     projects[i].name = folder[1];
                     projects[i].images = [];
                     projects[i].category = category;
-                    projects[i].folder = foldername + projects[i].name + '/JPEG/'
+                    projects[i].folder = foldername + projects[i].name + '/'
                     incrementPendingFolderCount();
                     $.ajax({
                         url: projects[i].folder,
@@ -28,7 +28,7 @@ function loadProjects(foldername, category) {
                             images = imagesData.matchAll(/addRow\("([\w\d\s-_\.\(\)&\[\]$]*)"*/g);
                             j = 0;
                             for (image of images) {
-                                if (!notProjects.includes(image[1])) {
+                                if (!notProjects.includes(image[1]) && !image[1].includes('-thumbnail.png')) {
                                     projects[this.indexValue].images[j++] = image[1];
                                 }
                             }
@@ -121,7 +121,7 @@ interval = setInterval(() => {
             <li data-filter-class='["all","${project.category}"]'>
                 <figure>
                     <a id="gallery${project.id}" href="#" class="cvgrid-img">
-                        <img src="${project.folder}${project.images[0]}" alt="" />
+                        <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png')}" alt="" />
                     </a>
                     <figcaption>
                         <div class="cvgrid-title">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
@@ -143,13 +143,13 @@ interval = setInterval(() => {
                         console.log("gallery: ", +e.currentTarget.id.replace('gallery', ''));
                         console.log("project: ", project);
                         if (project.images[0].includes('link$')) {
-                            window.location.href = project.images[0].replace('link$', 'http://');
+                            window.location.href = project.images[0].replace('link$', 'http://').replace('.png', '');
                         } else {
                             var galleryimages = [];
                             for (let image of project.images) {
                                 galleryimages.push({
                                     'src': `${project.folder}${image}`,
-                                    'thumb': `${project.folder}${image}`,
+                                    'thumb': `${project.folder}${image.replace('.png','-thumbnail.png')}`,
                                     'subHtml': `${image.split(".")[0]}`
                                 });
                             }
