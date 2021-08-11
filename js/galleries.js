@@ -28,7 +28,7 @@ function loadProjects(foldername, category) {
                             images = imagesData.matchAll(/addRow\("([\w\d\s-_\.\(\)&\[\]$]*)"*/g);
                             j = 0;
                             for (image of images) {
-                                if (!notProjects.includes(image[1])) {
+                                if (!notProjects.includes(image[1]) && !image[1].includes('-thumbnail.png')) {
                                     projects[this.indexValue].images[j++] = image[1];
                                 }
                             }
@@ -53,7 +53,7 @@ function loadScript(scriptName) {
 
 function loadAllScripts() {
     //    loadScript('js/nerveslider.min.js');
-    loadScript('js/wookmark.js');
+    // loadScript('js/wookmark.js');
     loadScript('js/portfolio-trigger.js');
     //   loadScript('js/jquery.tooltipster.min.js');
     //   loadScript('js/quovolver.js');
@@ -97,6 +97,7 @@ function loadProjectsfromFile() {
         projects = data;
     }).always(function() { deccrementPendingFolderCount(); });;
 }
+loadScript('js/wookmark.js');
 
 //loadProjects('images/', 'all');
 // loadProjects('projects/wireframes/', 'cat1');
@@ -121,7 +122,7 @@ interval = setInterval(() => {
             <li data-filter-class='["all","${project.category}"]'>
                 <figure>
                     <a id="gallery${project.id}" href="#" class="cvgrid-img">
-                        <img src="${project.folder}${project.images[0]}" alt="" />
+                        <img src="${project.folder}${project.images[0].replace('.png','.png')}" alt="" />
                     </a>
                     <figcaption>
                         <div class="cvgrid-title">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
@@ -131,43 +132,43 @@ interval = setInterval(() => {
             `);
                 }
             }
+                loadAllScripts();
 
-            loadAllScripts();
-
-            for (project of projects) {
-                if (project.images.length > 0) {
-                    jQuery('#gallery' + project.id).on('click', function (e) {
-                        "use strict";
-                        e.preventDefault();
-                        project = projects[+e.currentTarget.id.replace('gallery', '')];
-                        console.log("gallery: ", +e.currentTarget.id.replace('gallery', ''));
-                        console.log("project: ", project);
-                        if (project.images[0].includes('link$')) {
-                            window.location.href = project.images[0].replace('link$', 'http://');
-                        } else {
-                            var galleryimages = [];
-                            for (let image of project.images) {
-                                galleryimages.push({
-                                    'src': `${project.folder}${image}`,
-                                    'thumb': `${project.folder}${image}`,
-                                    'subHtml': `${image.split(".")[0]}`
-                                });
+                for (project of projects) {
+                    if (project.images.length > 0) {
+                        jQuery('#gallery' + project.id).on('click', function (e) {
+                            "use strict";
+                            e.preventDefault();
+                            project = projects[+e.currentTarget.id.replace('gallery', '')];
+                            console.log("gallery: ", +e.currentTarget.id.replace('gallery', ''));
+                            console.log("project: ", project);
+                            if (project.images[0].includes('link$')) {
+                                window.location.href = project.images[0].replace('link$', 'http://').replace('.png', '');
+                            } else {
+                                var galleryimages = [];
+                                for (let image of project.images) {
+                                    galleryimages.push({
+                                        'src': `${project.folder}${image}`,
+                                        'thumb': `${project.folder}${image.replace('.png','.png')}`,
+                                        'subHtml': `${image.split(".")[0]}`
+                                    });
+                                }
+                                jQuery(this).lightGallery({
+                                    dynamic: true,
+                                    mode: 'lg-slide-vertical',
+                                    zoom: true,
+                                    fullScreen: true,
+                                    autoplay: false,
+                                    thumbnail: false,
+                                    download: true,
+                                    counter: true,
+                                    // Images   
+                                    dynamicEl: galleryimages
+                                })
                             }
-                            jQuery(this).lightGallery({
-                                dynamic: true,
-                                mode: 'lg-slide-vertical',
-                                zoom: true,
-                                fullScreen: true,
-                                autoplay: false,
-                                thumbnail: false,
-                                download: true,
-                                counter: true,
-                                // Images   
-                                dynamicEl: galleryimages
-                            })
-                        }
-                    });
+                        });
+                    }
                 }
-            }
+
     }
 }, 1000);
