@@ -99,7 +99,6 @@ function loadProjectsfromFile() {
 }
 loadScript('js/wookmark.js');
 
-//loadProjects('images/', 'all');
 // loadProjects('projects/wireframes/', 'cat1');
 // loadProjects('projects/websites/', 'cat2');
 // loadProjects('projects/mobileApplications/', 'cat3');
