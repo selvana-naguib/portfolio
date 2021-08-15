@@ -25,7 +25,7 @@ function loadProjects(foldername, category) {
                         url: projects[i].folder,
                         indexValue: i,
                         success: function (imagesData) {
-                            images = imagesData.matchAll(/addRow\("([\w\d\s-_\.\(\)&\[\]$–—,'’]*)"*/g);
+                            images = imagesData.matchAll(/addRow\("([\w\d\s-_\.\(\)&\[\]$–—,'’\?/\/:]*)"*/g);
                             j = 0;
                             for (image of images) {
                                 if (!notProjects.includes(image[1]) && !image[1].includes('-thumbnail.png')) {
