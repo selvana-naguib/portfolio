@@ -28,7 +28,7 @@ function loadProjects(foldername, category) {
                             images = imagesData.matchAll(/addRow\("([\w\d\s-_\.\(\)&\[\]$–—,'’\?/\/:]*)"*/g);
                             j = 0;
                             for (image of images) {
-                                if (!notProjects.includes(image[1]) && !image[1].includes('-thumbnail.png')) {
+                                if (!notProjects.includes(image[1]) && !image[1].includes('-thumbnail')) {
                                     projects[this.indexValue].images[j++] = image[1];
                                 }
                             }
@@ -121,7 +121,7 @@ interval = setInterval(() => {
             <li data-filter-class='["all","${project.category}"]'>
                 <figure>
                     <a id="gallery${project.id}" href="#" class="cvgrid-img">
-                        <img src="${project.folder}${project.images[0].replace('.png','.png')}" alt="" />
+                        <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}" alt="" />
                     </a>
                     <figcaption>
                         <div class="cvgrid-title">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
@@ -148,7 +148,7 @@ interval = setInterval(() => {
                                 for (let image of project.images) {
                                     galleryimages.push({
                                         'src': `${project.folder}${image}`,
-                                        'thumb': `${project.folder}${image.replace('.png','.png')}`,
+                                        'thumb': `${project.folder}${image.replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}`,
                                         'subHtml': `${image.split(".")[0]}`
                                     });
                                 }
