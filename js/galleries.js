@@ -103,6 +103,7 @@ loadScript('js/wookmark.js');
 // loadProjects('projects/websites/', 'cat2');
 // loadProjects('projects/mobileApplications/', 'cat3');
 // loadProjects('projects/designs/', 'cat4');
+// loadProjects('projects/diagrams/', 'cat5');
 loadProjectsfromFile();
 interval = setInterval(() => {
         console.log(pendingFolderCount);
@@ -142,7 +143,7 @@ interval = setInterval(() => {
                             console.log("gallery: ", +e.currentTarget.id.replace('gallery', ''));
                             console.log("project: ", project);
                             if (project.images[0].includes('link$')) {
-                                window.location.href = project.images[0].replace('link$', 'http://').replace('.png', '');
+                                window.location.href = project.images[0].replace('link$www', 'http://www').replace('link$', '').replaceAll(':', '/').replace('.png', '');
                             } else {
                                 var galleryimages = [];
                                 for (let image of project.images) {
