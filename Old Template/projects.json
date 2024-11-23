@@ -1,7 +1,6 @@
 [
     {
         "name": "018.Dryclean Wireframes",
-        "desc": "",
         "images": [
             "01-Home.png",
             "02-Services.png",
@@ -28,7 +27,7 @@
             "23-Edit fields.png"
         ],
         "category": "cat1",
-        "folder": "images/projects/wireframes/018.Dryclean Wireframes/"
+        "folder": "projects/wireframes/018.Dryclean Wireframes/"
     },
     {
         "name": "026.Benefit Mall Wireframes",
@@ -41,7 +40,7 @@
             "6.png"
         ],
         "category": "cat1",
-        "folder": "images/projects/wireframes/026.Benefit Mall Wireframes/"
+        "folder": "projects/wireframes/026.Benefit Mall Wireframes/"
     },
     {
         "name": "0001.Command Center Website",
@@ -128,7 +127,7 @@
             "80-Admin Profile [Manage Portal] [User] [created failed].png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/0001.Command Center Website/"
+        "folder": "projects/websites/0001.Command Center Website/"
     },
     {
         "name": "0002.Al Moqayem Website",
@@ -148,7 +147,7 @@
             "12-Contact Us [Error Message].png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/0002.Al Moqayem Website/"
+        "folder": "projects/websites/0002.Al Moqayem Website/"
     },
     {
         "name": "0007.Emirates Auction Website",
@@ -266,7 +265,7 @@
             "112-FAQs (Videos Tutorials).png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/0007.Emirates Auction Website/"
+        "folder": "projects/websites/0007.Emirates Auction Website/"
     },
     {
         "name": "00071.Emirates Auction Revamping Website",
@@ -310,7 +309,7 @@
             "036-Surplus Details.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/00071.Emirates Auction Revamping Website/"
+        "folder": "projects/websites/00071.Emirates Auction Revamping Website/"
     },
     {
         "name": "001.PaySky Website",
@@ -318,7 +317,7 @@
             "PaySky.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/001.PaySky Website/"
+        "folder": "projects/websites/001.PaySky Website/"
     },
     {
         "name": "0011.Felmie Website",
@@ -327,7 +326,7 @@
             "lnkFelmie.webm"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/0011.Felmie Website/"
+        "folder": "projects/websites/0011.Felmie Website/"
     },
     {
         "name": "003.Dryclean Dashboard Website",
@@ -355,7 +354,7 @@
             "21-Editable-Cases-details .png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/003.Dryclean Dashboard Website/"
+        "folder": "projects/websites/003.Dryclean Dashboard Website/"
     },
     {
         "name": "004.Dryclean Landing Page Website",
@@ -367,7 +366,7 @@
             "5-Reset Password.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/004.Dryclean Landing Page Website/"
+        "folder": "projects/websites/004.Dryclean Landing Page Website/"
     },
     {
         "name": "007.ETender Website",
@@ -379,7 +378,7 @@
             "5.contact.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/007.ETender Website/"
+        "folder": "projects/websites/007.ETender Website/"
     },
     {
         "name": "008.eBN Dashboard",
@@ -391,7 +390,7 @@
             "5.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/008.eBN Dashboard/"
+        "folder": "projects/websites/008.eBN Dashboard/"
     },
     {
         "name": "009.Idea Consult Website",
@@ -399,7 +398,7 @@
             "link$d3avcqjf5wn43b.cloudfront.net.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/009.Idea Consult Website/"
+        "folder": "projects/websites/009.Idea Consult Website/"
     },
     {
         "name": "010.eBenefits Network Website",
@@ -407,7 +406,7 @@
             "link$www.ebenefitsnetwork.com.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/010.eBenefits Network Website/"
+        "folder": "projects/websites/010.eBenefits Network Website/"
     },
     {
         "name": "015.Kuwait Capital Arab Youth 2017 Website",
@@ -416,7 +415,7 @@
             "2-Event-Details.png"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/015.Kuwait Capital Arab Youth 2017 Website/"
+        "folder": "projects/websites/015.Kuwait Capital Arab Youth 2017 Website/"
     },
     {
         "name": "016.Dryclean Mobile Landing Page",
@@ -425,7 +424,7 @@
             "2.jpg"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/016.Dryclean Mobile Landing Page/"
+        "folder": "projects/websites/016.Dryclean Mobile Landing Page/"
     },
     {
         "name": "017.CheckMyRyde Website",
@@ -433,7 +432,7 @@
             "CheckMyRyde Website.PNG"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/017.CheckMyRyde Website/"
+        "folder": "projects/websites/017.CheckMyRyde Website/"
     },
     {
         "name": "025.Benefit Mall Website",
@@ -441,7 +440,7 @@
             "1.PNG"
         ],
         "category": "cat2",
-        "folder": "images/projects/websites/025.Benefit Mall Website/"
+        "folder": "projects/websites/025.Benefit Mall Website/"
     },
     {
         "name": "0003.Providal Portal Application",
@@ -504,7 +503,7 @@
             "55-[Profile]  Settings.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/0003.Providal Portal Application/"
+        "folder": "projects/mobileApplications/0003.Providal Portal Application/"
     },
     {
         "name": "0004.Emirates Road Assistance Application[EN Version]",
@@ -671,10 +670,10 @@
             "161-Menu logged in user-Avatar.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/0004.Emirates Road Assistance Application[EN Version]/"
+        "folder": "projects/mobileApplications/0004.Emirates Road Assistance Application[EN Version]/"
     },
     {
-        "name": "00060.Emirates Road Assistance Application[AR Version]",
+        "name": "0005.Emirates Road Assistance Application[AR Version]",
         "images": [
             "01-[AR]Splash.png",
             "02-[AR]Login.png",
@@ -745,7 +744,7 @@
             "66-[AR]Menu anonymous user.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/0005.Emirates Road Assistance Application[AR Version]/"
+        "folder": "projects/mobileApplications/0005.Emirates Road Assistance Application[AR Version]/"
     },
     {
         "name": "0006.Emirates Auction Revamping Application",
@@ -753,10 +752,10 @@
             "Home .png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/0006.Emirates Auction Revamping Application/"
+        "folder": "projects/mobileApplications/0006.Emirates Auction Revamping Application/"
     },
     {
-        "name": "0005.Emirates Auction Application",
+        "name": "00060.Emirates Auction Application",
         "images": [
             "00-Home.png",
             "01-Login.png",
@@ -788,7 +787,7 @@
             "27-Surplus Details.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/00060.Emirates Auction Application/"
+        "folder": "projects/mobileApplications/00060.Emirates Auction Application/"
     },
     {
         "name": "000601.BDC Money Transfer Application",
@@ -854,7 +853,7 @@
             "58-Manage your Beneficiaries [Beneficiary Added].png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/000601.BDC Money Transfer Application/"
+        "folder": "projects/mobileApplications/000601.BDC Money Transfer Application/"
     },
     {
         "name": "00061.Car Parking Application",
@@ -883,7 +882,7 @@
             "21-Order Reserved.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/00061.Car Parking Application/"
+        "folder": "projects/mobileApplications/00061.Car Parking Application/"
     },
     {
         "name": "00062.Minly Application",
@@ -891,7 +890,7 @@
             "Profile.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/00062.Minly Application/"
+        "folder": "projects/mobileApplications/00062.Minly Application/"
     },
     {
         "name": "0009.CheckOut Flow eCommerce Apllication",
@@ -916,7 +915,7 @@
             "18.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/0009.CheckOut Flow eCommerce Apllication/"
+        "folder": "projects/mobileApplications/0009.CheckOut Flow eCommerce Apllication/"
     },
     {
         "name": "002.MasterLinux Application",
@@ -929,7 +928,7 @@
             "6.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/002.MasterLinux Application/"
+        "folder": "projects/mobileApplications/002.MasterLinux Application/"
     },
     {
         "name": "005.Dryclean User Application",
@@ -972,7 +971,7 @@
             "37.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/005.Dryclean User Application/"
+        "folder": "projects/mobileApplications/005.Dryclean User Application/"
     },
     {
         "name": "006.Dryclean Operator Application",
@@ -1004,7 +1003,7 @@
             "26.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/006.Dryclean Operator Application/"
+        "folder": "projects/mobileApplications/006.Dryclean Operator Application/"
     },
     {
         "name": "011.AgilePortal",
@@ -1018,7 +1017,7 @@
             "7.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/011.AgilePortal/"
+        "folder": "projects/mobileApplications/011.AgilePortal/"
     },
     {
         "name": "012.Saudi Post Application",
@@ -1059,7 +1058,7 @@
             "9_2_user_profile.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/012.Saudi Post Application/"
+        "folder": "projects/mobileApplications/012.Saudi Post Application/"
     },
     {
         "name": "013.Kuwait Capital Arab Youth 2017 Application",
@@ -1083,7 +1082,7 @@
             "17.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/013.Kuwait Capital Arab Youth 2017 Application/"
+        "folder": "projects/mobileApplications/013.Kuwait Capital Arab Youth 2017 Application/"
     },
     {
         "name": "023.Service Application",
@@ -1098,7 +1097,7 @@
             "8.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/023.Service Application/"
+        "folder": "projects/mobileApplications/023.Service Application/"
     },
     {
         "name": "027.Ecommerce Application",
@@ -1121,15 +1120,15 @@
             "17.png"
         ],
         "category": "cat3",
-        "folder": "images/projects/mobileApplications/027.Ecommerce Application/"
+        "folder": "projects/mobileApplications/027.Ecommerce Application/"
     },
     {
         "name": "00072.BDC (Money Transfer Flow) Presentation",
         "images": [
             "[Banque Du Caire] Money Transfer Flow.png"
         ],
-        "category": "cat6",
-        "folder": "images/projects/designs/00072.BDC (Money Transfer Flow) Presentation/"
+        "category": "cat4",
+        "folder": "projects/designs/00072.BDC (Money Transfer Flow) Presentation/"
     },
     {
         "name": "00073.Emirates Auction Design System",
@@ -1167,8 +1166,8 @@
             "29-EA–DesignSystem–V-01 – Bidding – 2.png",
             "30-EA–DesignSystem–V-01 – Bidding – 1.png"
         ],
-        "category": "cat6",
-        "folder": "images/projects/designs/00073.Emirates Auction Design System/"
+        "category": "cat4",
+        "folder": "projects/designs/00073.Emirates Auction Design System/"
     },
     {
         "name": "014.Agile Brochure",
@@ -1188,7 +1187,7 @@
             "Artboard 1.png"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/014.Agile Brochure/"
+        "folder": "projects/designs/014.Agile Brochure/"
     },
     {
         "name": "019.eBN Brochure",
@@ -1203,15 +1202,15 @@
             "8.png"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/019.eBN Brochure/"
+        "folder": "projects/designs/019.eBN Brochure/"
     },
     {
         "name": "020.eBN Branding",
         "images": [
             "1.png"
         ],
-        "category": "cat6",
-        "folder": "images/projects/designs/020.eBN Branding/"
+        "category": "cat4",
+        "folder": "projects/designs/020.eBN Branding/"
     },
     {
         "name": "021.Marketplace Presentation",
@@ -1222,7 +1221,7 @@
             "4.png"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/021.Marketplace Presentation/"
+        "folder": "projects/designs/021.Marketplace Presentation/"
     },
     {
         "name": "022.eBN Banners",
@@ -1231,7 +1230,7 @@
             "2.png"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/022.eBN Banners/"
+        "folder": "projects/designs/022.eBN Banners/"
     },
     {
         "name": "024.Designs",
@@ -1244,7 +1243,7 @@
             "SocialMedia2.jpg"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/024.Designs/"
+        "folder": "projects/designs/024.Designs/"
     },
     {
         "name": "028.Logos",
@@ -1255,7 +1254,7 @@
             "SocialEducation.png"
         ],
         "category": "cat4",
-        "folder": "images/projects/designs/028.Logos/"
+        "folder": "projects/designs/028.Logos/"
     },
     {
         "name": "0181.Car Parking Sitemap",
@@ -1263,7 +1262,7 @@
             "Parking Sitemap.png"
         ],
         "category": "cat5",
-        "folder": "images/projects/diagrams/0181.Car Parking Sitemap/"
+        "folder": "projects/diagrams/0181.Car Parking Sitemap/"
     },
     {
         "name": "0182.Car Parking Userflow",
@@ -1271,6 +1270,6 @@
             "Parking Userflow.png"
         ],
         "category": "cat5",
-        "folder": "images/projects/diagrams/0182.Car Parking Userflow/"
+        "folder": "projects/diagrams/0182.Car Parking Userflow/"
     }
 ]
