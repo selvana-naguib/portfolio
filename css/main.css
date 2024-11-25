@@ -1,3 +1,4 @@
+
 /* Fonts START */
 @font-face {
   font-family: 'Roboto';
@@ -1672,7 +1673,7 @@ a {
 }
 .timeline-horizontal-border i {
   font-size:  10px;
-  color: #b636ff;
+  color: #9000e2;
   margin-right:  5px;
 }
 span.single-timeline-horizontal {
@@ -1710,7 +1711,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-progress-txt h3 {
   width: 10%;
-  color: #b636ff;
+  color: #9000e2;
   position: relative;
   top: 6px;
   left: 20px;
@@ -1730,7 +1731,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   margin-bottom: 37px;
 }
 .progress-bar {
-  background: #b636ff;
+  background: #9000e2;
   border-radius: 3px;
   overflow: visible;
   height:4px;
@@ -1748,7 +1749,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
   background-color: transparent;
   padding: 1px 5px;
-  color: #b636ff;
+  color: #9000e2;
   font-weight: 500;
   font-size: 12px;
   border-radius: 0;
@@ -1804,7 +1805,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   line-height: 20px;
 }
 .timeline-content span>i, .experience-time span>i {
-  color: #b636ff;
+  color: #9000e2;
   position: absolute;
   font-size: 10px;
   left: -14.5%;
@@ -1839,7 +1840,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .circle {
-   color: #b636ff;
+   color: #9000e2;
    top: 100px;
    position: relative;
   }
