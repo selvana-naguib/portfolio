@@ -10,7 +10,7 @@ function getCategoryName (category) {
         case "cat3":
           return "Mobile Applications"
         case "cat4":
-          return "Designs"
+          return "Presentations"
         case "cat5":
           return "Diagrams"
         case "cat6":
@@ -28,16 +28,18 @@ function renderCategories() {
         </div>`);
     for (i in projects) {
         project = projects[i];
-        $(`#album-all`).append(`
-        <div class="grid-item album-item">
-            <a href="gallery-single.html?project=${project.id}">
-                <div class="album-thumb">
-                    <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}" 
-                    class="" alt="${!project.name.includes(".") ? project.name : project.name.split(".")[1]}">
-                </div>
-                <div class="album-name">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
-            </a>
-        </div>`);
+        if (!project.hide) {
+            $(`#album-all`).append(`
+            <div class="grid-item album-item">
+                <a href="gallery-single.html?project=${project.id}">
+                    <div class="album-thumb">
+                        <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}" 
+                        class="" alt="${!project.name.includes(".") ? project.name : project.name.split(".")[1]}">
+                    </div>
+                    <div class="album-name">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
+                </a>
+            </div>`);
+        }
     }
 
     // add categories tabs
@@ -49,19 +51,20 @@ function renderCategories() {
         </div>`)
 
         for (p in value) {
-            project = value[p]
-            $(`#album-${key}`).append(`
-            <div class="grid-item album-item">
-                <a href="gallery-single.html?project=${project.id}">
-                    <div class="album-thumb">
-                        <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}" 
-                        class="" alt="${!project.name.includes(".") ? project.name : project.name.split(".")[1]}">
-                    </div>
-                    <div class="album-name">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
-                </a>
-            </div>`);
-        }
-    
+            project = value[p]; 
+            if (!project.hide) {
+                $(`#album-${key}`).append(`
+                <div class="grid-item album-item">
+                    <a href="gallery-single.html?project=${project.id}">
+                        <div class="album-thumb">
+                            <img src="${project.folder}${project.images[0].replace('.png','-thumbnail.png').replace('.jpg','-thumbnail.jpg').replace('.PNG','-thumbnail.PNG').replace('.JPG','-thumbnail.JPG')}" 
+                            class="" alt="${!project.name.includes(".") ? project.name : project.name.split(".")[1]}">
+                        </div>
+                        <div class="album-name">${!project.name.includes(".") ? project.name : project.name.split(".")[1]}</div>
+                    </a>
+                </div>`);
+            }
+        }   
     });
 
     // click on first tab
@@ -136,6 +139,7 @@ $.getJSON('projects.json', function(data) {
         project.id = p;
         categories[key].push(project);
     }
+    // console.log(categories);
     if (window.location.href.indexOf("gallery.html") > -1)  renderCategories();
     else {
         const urlParams = new URLSearchParams(window.location.search);
