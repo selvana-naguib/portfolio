@@ -44,6 +44,14 @@
         "folder": "images/projects/wireframes/026.Benefit Mall Wireframes/"
     },
     {
+        "name": "026.Benefit Mall Wireframes",
+        "images": [
+            "1.png",
+        ],
+        "category": "cat2",
+        "folder": "images/projects/mobileApplications/Bank Misr/"
+    },
+    {
         "name": "0001.Command Center Website",
         "images": [
             "01-Login.png",
