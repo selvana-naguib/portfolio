@@ -328,6 +328,9 @@ def main():
     else:
         logging.warning("projects.json not found at %s; skipping JSON update", pj_path)
 
+    logging.info("Discovered projects:")
+    for idx, project in enumerate(sorted(discovered.keys())):
+        logging.info("  %d: %s", idx + 1, project)
     logging.info("Done.")
 
 if __name__ == "__main__":
