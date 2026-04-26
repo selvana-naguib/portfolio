@@ -330,7 +330,9 @@ def main():
 
     logging.info("Discovered projects:")
     for idx, project in enumerate(sorted(discovered.keys())):
-        logging.info("  %d: %s", idx + 1, project)
+        parent_dir = os.path.basename(os.path.dirname(os.path.dirname(discovered[project][0]))) if discovered[project] else "Unknown"
+        images_count = len(discovered[project])
+        logging.info("  %d: %s (Category: %s, Images: %d)", idx + 1, project, parent_dir, images_count)
     logging.info("Done.")
 
 if __name__ == "__main__":
