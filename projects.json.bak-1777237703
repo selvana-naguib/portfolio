@@ -1205,62 +1205,8 @@
     "category": "cat6"
   },
   {
-    "name": "0200.eBN Branding",
-    "folder": "images/projects/designSystems/0200.eBN Branding/",
-    "images": [
-      "1.png"
-    ],
-    "category": "cat6"
-  },
-  {
-    "name": "0140.Agile Brochure",
-    "folder": "images/projects/presentations/0140.Agile Brochure/",
-    "images": [
-      "Artboard 1 copy 10.png",
-      "Artboard 1 copy 11.png",
-      "Artboard 1 copy 12.png",
-      "Artboard 1 copy 2.png",
-      "Artboard 1 copy 3.png",
-      "Artboard 1 copy 4.png",
-      "Artboard 1 copy 5.png",
-      "Artboard 1 copy 6.png",
-      "Artboard 1 copy 7.png",
-      "Artboard 1 copy 8.png",
-      "Artboard 1 copy 9.png",
-      "Artboard 1 copy.png",
-      "Artboard 1.png"
-    ],
-    "category": "cat4"
-  },
-  {
-    "name": "0190.eBN Brochure",
-    "folder": "images/projects/presentations/0190.eBN Brochure/",
-    "images": [
-      "1.png",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg",
-      "5.jpg",
-      "6.png",
-      "7.png",
-      "8.png"
-    ],
-    "category": "cat4"
-  },
-  {
-    "name": "0210.Marketplace Presentation",
-    "folder": "images/projects/presentations/0210.Marketplace Presentation/",
-    "images": [
-      "1.png",
-      "2.png",
-      "3.jpg",
-      "4.png"
-    ],
-    "category": "cat4"
-  },
-  {
-    "name": "00001.Digital Sharjah Design System",
-    "folder": "images/projects/designSystems/00001.Digital Sharjah Design System/",
+    "name": "000740.Digital Sharjah Design System",
+    "folder": "images/projects/designSystems/000740.Digital Sharjah Design System/",
     "images": [
       "00-Cover.png",
       "01-Colors.png",
@@ -1328,24 +1274,24 @@
     "category": "cat6"
   },
   {
-    "name": "00002.Financial Management",
-    "folder": "images/projects/presentations/00002.Financial Management/",
+    "name": "0200.eBN Branding",
+    "folder": "images/projects/designSystems/0200.eBN Branding/",
     "images": [
-      "Financial Management@2x.png"
+      "1.png"
     ],
-    "category": "cat4"
+    "category": "cat6"
   },
   {
-    "name": "00072.BDC (Money Transfer Flow) Presentation",
-    "folder": "images/projects/presentations/00072.BDC (Money Transfer Flow) Presentation/",
+    "name": "000720.BDC (Money Transfer Flow) Presentation",
+    "folder": "images/projects/presentations/000720.BDC (Money Transfer Flow) Presentation/",
     "images": [
       "[Banque Du Caire] Money Transfer Flow.png"
     ],
     "category": "cat4"
   },
   {
-    "name": "00075.DS DesignSystems Presentation",
-    "folder": "images/projects/presentations/00075.DS DesignSystems Presentation/",
+    "name": "000750.DS DesignSystems Presentation",
+    "folder": "images/projects/presentations/000750.DS DesignSystems Presentation/",
     "images": [
       "01.png",
       "02.png",
@@ -1376,31 +1322,57 @@
     "category": "cat4"
   },
   {
-    "name": "022.eBN Banners",
-    "folder": "images/projects/presentations/022.eBN Banners/",
+    "name": "0140.Agile Brochure",
+    "folder": "images/projects/presentations/0140.Agile Brochure/",
     "images": [
-      "1.jpg",
-      "2.png"
+      "Artboard 1 copy 10.png",
+      "Artboard 1 copy 11.png",
+      "Artboard 1 copy 12.png",
+      "Artboard 1 copy 2.png",
+      "Artboard 1 copy 3.png",
+      "Artboard 1 copy 4.png",
+      "Artboard 1 copy 5.png",
+      "Artboard 1 copy 6.png",
+      "Artboard 1 copy 7.png",
+      "Artboard 1 copy 8.png",
+      "Artboard 1 copy 9.png",
+      "Artboard 1 copy.png",
+      "Artboard 1.png"
     ],
     "category": "cat4"
   },
   {
-    "name": "00011.Case Study",
-    "folder": "images/projects/presentations/00011.Case Study/",
+    "name": "0190.eBN Brochure",
+    "folder": "images/projects/presentations/0190.eBN Brochure/",
     "images": [
       "1.png",
-      "10.png",
-      "11.png",
-      "12.png",
-      "13.png",
-      "2.png",
-      "3.png",
-      "4.png",
-      "5.png",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
       "6.png",
       "7.png",
-      "8.png",
-      "9.png"
+      "8.png"
+    ],
+    "category": "cat4"
+  },
+  {
+    "name": "0210.Marketplace Presentation",
+    "folder": "images/projects/presentations/0210.Marketplace Presentation/",
+    "images": [
+      "1.png",
+      "2.png",
+      "3.jpg",
+      "4.png"
+    ],
+    "category": "cat4"
+  },
+  {
+    "name": "0220.eBN Banners",
+    "folder": "images/projects/presentations/0220.eBN Banners/",
+    "images": [
+      "1.jpg",
+      "2.png"
     ],
     "category": "cat4"
   }

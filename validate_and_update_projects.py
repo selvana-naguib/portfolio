@@ -197,7 +197,7 @@ def try_update_projects_json(projects_json_path: Path, discovered: Dict[str, Lis
             logging.debug("Dry-run: %s", msg)
         else:
             for folder, images in new_projects.items():
-                folder_path = os.path.dirname(images[0]) + os.sep if images else ""
+                folder_path = os.path.dirname(images[0]) if images else ""
                 logging.info("Determining category for new project %s with folder_path=%s with parent folder =%s", folder, folder_path, os.path.basename(os.path.dirname(folder_path)))
                 if folder_path == "":
                     logging.warning("Cannot determine path for new project %s because folder is empty; skipping", folder)
@@ -210,7 +210,7 @@ def try_update_projects_json(projects_json_path: Path, discovered: Dict[str, Lis
                     "diagrams": "cat5",
                     "designSystems": "cat6"
                 }.get(os.path.basename(os.path.dirname(folder_path)), "Unknown")
-                obj.append({"name": os.path.basename(folder_path), "folder": str(folder_path), "images": [os.path.basename(img) for img in images], "category": category})
+                obj.append({"name": os.path.basename(folder_path), "folder": str(folder_path + os.sep), "images": [os.path.basename(img) for img in images], "category": category})
                 msg = f"Added new project: {folder} with images: {images}"
                 log_lines.append(msg)
                 logging.info(msg)
