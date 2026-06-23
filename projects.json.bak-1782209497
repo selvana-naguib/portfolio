@@ -1468,14 +1468,5 @@
       "12.jpg"
     ],
     "category": "cat4"
-  },
-  {
-    "name": "00004.Nafeza Dashboard",
-    "folder": "images/projects/websites/00004.Nafeza Dashboard/",
-    "images": [
-      "Dashboard.png",
-      "Drill Down.png"
-    ],
-    "category": "cat2"
   }
 ]
