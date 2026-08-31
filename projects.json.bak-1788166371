@@ -1479,19 +1479,11 @@
     "category": "cat2"
   },
   {
-    "name": "00002.Spectrum Design System",
+    "name": "00002.Spectrum.life Design System",
     "folder": "images/projects/designSystems/00002.Spectrum.life Design System/",
     "images": [
-      "00.Cover.png",
-      "01.Logo.png",
-      "02.Colors.png",
-      "03.Icons.png",
-      "04.Typography.png",
-      "05.Utilities.png",
-      "06.Navs.png",
-      "07.Accordion.png",
-      "08.Banners.png",
-      "09.Breadcrumb.png",
+      "0.Cover.png",
+      "1.Logo.png",
       "10.Buttons.png",
       "11.Cards.png",
       "12.DFD Cards.png",
@@ -1502,6 +1494,7 @@
       "17.Cards.png",
       "18.Cards.png",
       "19.Cards.png",
+      "2.Colors.png",
       "20.Cookie pop-up.png",
       "21.Date picker.png",
       "22.Date picker.png",
@@ -1512,6 +1505,7 @@
       "27.Forms.png",
       "28.Forms.png",
       "29.Forms.png",
+      "3.Icons.png",
       "30.Forms.png",
       "31.Forms.png",
       "32.Forms.png",
@@ -1523,6 +1517,7 @@
       "37.Media.png",
       "38.Media.png",
       "39.Media.png",
+      "4.Typography.png",
       "40.Media.png",
       "41.Media.png",
       "42.Media.png",
@@ -1533,6 +1528,7 @@
       "47.Navigation bar.png",
       "48.Pagination.png",
       "49.Progress bar.png",
+      "5.Utilities.png",
       "50.Segmented control.png",
       "51.Stepper.png",
       "52.Slider.png",
@@ -1543,8 +1539,12 @@
       "57.Chatbot.png",
       "58.Chatbot.png",
       "59.Chatbot.png",
+      "6.Navs.png",
       "60.Control.png",
-      "61.Footer.png"
+      "61.Footer.png",
+      "7.Accordion.png",
+      "8.Banners.png",
+      "9.Breadcrumb.png"
     ],
     "category": "cat6"
   }
